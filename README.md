@@ -1,99 +1,61 @@
-# Game Collection - Games Branch
+# AI Project - Game Collection
 
-This branch contains all game projects built with Python and Pygame, including turn-based strategy games, racing games, and classic arcade titles.
+A comprehensive collection of games built with Python and Pygame, featuring turn-based strategy games, racing games, and classic arcade titles with AI opponents and multiplayer support.
 
-## Games Included
-
-### 1. Worms Rumble - Battle Edition (`worms_rumble.py`)
-A local, turn-based arena inspired by classic artillery/"worms" games with playable demo.
-
-**Controls**:
-- Move: Left / Right or A / D
-- Jump: Up or W
-- Aim: Q / E
-- Fire: Space
-- Switch worm: Tab
-- Pause / Menu: ESC
-
-**Quick Start**:
-```powershell
-python worms_rumble.py
-```
-
-**Requirements**: Python 3.8+, pygame
+**Status**: ✅ Production Ready
 
 ---
 
-### 2. Snake Game (`snake.py`)
-Classic Snake game built with Pygame.
-- **Controls**: Arrow keys to move
-- **Objective**: Eat red food to grow longer
-- **Game Over**: Press Q to quit, C to play again
+## 🚀 Quick Start
 
-**Run**:
-```bash
-python snake.py
-```
-
----
-
-### 3. Huntrix Game (`huntrix_game.py`)
-An engaging puzzle/adventure game with multiple levels.
-
-**Run**:
-```bash
-python huntrix_game.py
-```
-
----
-
-### 4. Racing Games
-- **Ultimate Racing Pro** (`ultimate_racing_pro.py`) - Advanced racing simulator
-- **NFS Racing** (`nfs_racing.py`) - Need for Speed style game
-- **Racing Simple** (`racing_simple.py`) - Basic racing game
-
-**Run any racing game**:
-```bash
-python ultimate_racing_pro.py
-```
-
----
-
-### 5. Bomberman (`bomberman.py`)
-Classic Bomberman-style action game with multiplayer support.
-
-## Installation
-
-1. Clone this repository:
+### Installation
 ```bash
 git clone https://github.com/mugire-can/AI-Project.git
 cd AI-Project
-```
-
-2. Switch to Games branch:
-```bash
-git checkout Games
-```
-
-3. Install dependencies:
-```bash
 pip install -r requirements.txt
 ```
 
-## System Requirements
+### Run a Game
+```bash
+python worms_rumble.py      # Turn-based strategy
+python snake.py             # Classic arcade
+python ultimate_racing_pro.py  # Racing simulator
+```
+
+---
+
+## 🎮 Games Included
+
+- **Worms Rumble** - Turn-based artillery game with multiplayer
+- **Snake** - Classic arcade game
+- **Huntrix** - Puzzle/adventure game with levels
+- **Racing Series** - Ultimate Racing Pro, NFS Racing, Racing Simple
+- **Bomberman** - Action game with multiplayer
+
+---
+
+## 📚 Full Documentation
+
+For complete information about:
+- All games and controls
+- Installation & setup
+- AI integration
+- Project fixes applied
+- Feature details
+
+**See: [DOCUMENTATION.md](DOCUMENTATION.md)**
+
+---
+
+## Requirements
+
 - Python 3.8+
 - Pygame
-- 100MB free disk space for assets
+- 100MB free disk space
 
-## Notes
-- Games will generate sound assets under `assets/sounds/` if not present
-- For better visuals, add sprite assets and tilesets
-- All games use local multiplayer (no network play)
+---
 
-## Author
+## Author & License
 
-mugire-can
-
-## License
-
-MIT
+**Author**: mugire-can  
+**License**: MIT
