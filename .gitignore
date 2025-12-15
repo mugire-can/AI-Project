@@ -1,4 +1,4 @@
-# Python
+# === PYTHON ===
 __pycache__/
 *.py[cod]
 *$py.class
@@ -23,39 +23,50 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Virtual environments
+# === VIRTUAL ENVIRONMENTS ===
 venv/
 ENV/
 env/
 .venv
+.env
 
-# IDE
+# === IDE & EDITORS ===
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-.DS_Store
+*.sublime-project
+*.sublime-workspace
 
-# Environment variables
-.env
+# === OS ===
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# === ENVIRONMENT VARIABLES ===
 .env.local
 .env.*.local
 
-# Game-specific
+# === GAME-SPECIFIC ===
 *.wav
 assets/sounds/
 snake_highscore.json
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Testing
+# === TESTING ===
 .pytest_cache/
 .coverage
 htmlcov/
+.tox/
+.hypothesis/
 
-# Misc
+# === MISC ===
 *.log
 .cache/
+*.bak
+*.swp
+*~
+.idea/
+.vscode/
+.DS_Store
