@@ -1,15 +1,13 @@
-# Worms Rumble - Battle Edition
+# Game Collection - Games Branch
 
-This is a local, turn-based arena inspired by classic artillery/"worms" games. The project includes a playable demo written with pygame.
+This branch contains all game projects built with Python and Pygame, including turn-based strategy games, racing games, and classic arcade titles.
 
-Quick start (Windows PowerShell):
+## Games Included
 
-```powershell
-cd 'c:\Users\mugir\OneDrive\Belgeler\btp-projet-ia'
-python .\worms_rumble.py
-```
+### 1. Worms Rumble - Battle Edition (`worms_rumble.py`)
+A local, turn-based arena inspired by classic artillery/"worms" games with playable demo.
 
-Controls
+**Controls**:
 - Move: Left / Right or A / D
 - Jump: Up or W
 - Aim: Q / E
@@ -17,72 +15,52 @@ Controls
 - Switch worm: Tab
 - Pause / Menu: ESC
 
-Notes
-- The game will generate small example WAV files under `assets/sounds/` if none are present. Replace them with better assets to improve audio.
-- To get better visuals, add sprite assets and a tileset and I can integrate them.
-
-Requirements
-- Python 3.8+
-- pygame
-
-Install dependencies:
-
+**Quick Start**:
 ```powershell
-pip install -r requirements.txt
+python worms_rumble.py
 ```
 
-If you want, I can also add placeholder PNG sprite assets and a small sample sound pack to make the demo feel more polished out-of-the-box—tell me and I'll add them.
+**Requirements**: Python 3.8+, pygame
 
--- End
-# AI Project
+---
 
-Collection of Python projects including games, image downloaders, and marketing content generators.
-
-## Projects Included
-
-### 1. Snake Game (`snake.py`)
+### 2. Snake Game (`snake.py`)
 Classic Snake game built with Pygame.
 - **Controls**: Arrow keys to move
 - **Objective**: Eat red food to grow longer
 - **Game Over**: Press Q to quit, C to play again
-
-**Requirements**:
-```bash
-pip install pygame
-```
 
 **Run**:
 ```bash
 python snake.py
 ```
 
-### 2. King Cobra Image Downloader (`download_cobra.py`)
-Downloads king cobra images from Unsplash API.
+---
 
-**Requirements**:
-```bash
-pip install requests
-```
+### 3. Huntrix Game (`huntrix_game.py`)
+An engaging puzzle/adventure game with multiple levels.
 
 **Run**:
 ```bash
-python download_cobra.py
+python huntrix_game.py
 ```
 
-### 3. PACA Regional Jingle (`jingle_paca.txt` & `generate_jingle_audio.py`)
-Marketing jingle for a French regional application selling fresh fruits and vegetables.
-- **Text file**: Contains complete lyrics and production notes
-- **Audio generator**: Creates female-voiced MP3 file
+---
 
-**Requirements**:
+### 4. Racing Games
+- **Ultimate Racing Pro** (`ultimate_racing_pro.py`) - Advanced racing simulator
+- **NFS Racing** (`nfs_racing.py`) - Need for Speed style game
+- **Racing Simple** (`racing_simple.py`) - Basic racing game
+
+**Run any racing game**:
 ```bash
-pip install gTTS
+python ultimate_racing_pro.py
 ```
 
-**Run**:
-```bash
-python generate_jingle_audio.py
-```
+---
+
+### 5. Bomberman (`bomberman.py`)
+Classic Bomberman-style action game with multiplayer support.
 
 ## Installation
 
@@ -92,10 +70,25 @@ git clone https://github.com/mugire-can/AI-Project.git
 cd AI-Project
 ```
 
-2. Install dependencies:
+2. Switch to Games branch:
 ```bash
-pip install pygame requests gTTS
+git checkout Games
 ```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## System Requirements
+- Python 3.8+
+- Pygame
+- 100MB free disk space for assets
+
+## Notes
+- Games will generate sound assets under `assets/sounds/` if not present
+- For better visuals, add sprite assets and tilesets
+- All games use local multiplayer (no network play)
 
 ## Author
 
