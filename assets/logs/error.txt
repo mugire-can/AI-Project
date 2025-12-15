@@ -1,0 +1,6 @@
+Failed to import pygame. Traceback:
+Traceback (most recent call last):
+  File "C:\Users\mugir\OneDrive\Belgeler\btp-projet-ia\run_worms.py", line 18, in <module>
+    import pygame  # noqa: F401
+    ^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pygame'
